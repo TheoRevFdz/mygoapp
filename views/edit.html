@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>{{.Title}}</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>{{.Title}}</h1>
+        <form method="POST" action="/save/{{.Title}}">
+            <textarea name="body">{{printf "%s" .Body}}</textarea>
+            <button class="button button--primary">Guaardar</button>
+        </form>
+    </div>
+</body>
+
+</html>

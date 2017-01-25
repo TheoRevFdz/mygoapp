@@ -1,0 +1,41 @@
+a.button,
+.button{
+  align-items: center;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1erm;
+  justify-content: center;
+  line-height: 2;
+  margin: 0.5em 0 0 0;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+  &:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &--primary{
+    background-color: $color2;
+    &:hover,
+    &:active,
+    &.active{
+      background-color: darken($color2, 10);
+    }
+  }
+
+  &--warning{
+    background-color: $color4;
+    &:hover,
+    &:active,
+    &.active{
+      background-color: darken($color4, 10);
+    }
+  }
+
+  .buttons{
+    margin-top: 2em;
+  }
+}

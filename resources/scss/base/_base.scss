@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: $color1;
+  display: flex;
+  font-family: "Oxygen";
+  font-size: 1erm;
+}
+
+form {
+  margin: 0;
+}
+
+h1 {
+  color: $color3;
+  font-family: "Oswald";
+  font-size: 2em;
+  line-height: 1;
+  text-align: center;
+}
+
+html {
+  font-size: 18px;
+}
+
+input,
+textarea {
+  border: 1px solid $color1;
+  font-family: "Oxygen";
+  padding: 5px;
+  width: 100%;
+}
+
+input {
+  display: block;
+  margin: 0.5em 0;
+}
+
+textarea{
+  font-size: 1rem;
+  max-width: 100%;
+  height: 20em;
+}

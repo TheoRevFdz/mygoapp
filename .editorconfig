@@ -3,3 +3,11 @@ root = true
 [*.go]
 indent_style = tab
 indent_size = 4
+
+[*.{html, js, json}]
+indent_style = space
+indent_size = 4
+
+[*.{scss, css}]
+indent_style = space
+indent_size = 2
