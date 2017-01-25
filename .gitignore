@@ -32,3 +32,11 @@ _testmain.go
 
 # Se ignora el ejecutable
 mygoapp
+
+# Comandos de NodeJS
+.notes
+
+# Archivos de NodeJS
+node_modules/
+public/css/styles.css
+public/css/styles.css.map
